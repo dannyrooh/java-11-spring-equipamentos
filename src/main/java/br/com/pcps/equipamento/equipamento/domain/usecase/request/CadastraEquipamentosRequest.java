@@ -15,8 +15,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class CadastraEquipamentosRequest {
 
-    private Integer id;
-
+    
     private String modelo;
 
     private String nome;
