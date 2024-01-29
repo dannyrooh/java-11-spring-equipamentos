@@ -43,8 +43,6 @@ class EquipamentosDataProvider implements EquipamentosGateway {
                                    dto.getNome(),
                                    dto.getPaginacao())
                             .map(EquipamentosMapper.INSTANCE::toEntity);
-
-
     }
 
     @Override
